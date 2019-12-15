@@ -11,19 +11,11 @@ const express = require('express'),
     app = express();
 
 const api = {
-  master: 'http://api.wisdomtmt.com/',
-  android: 'http://api.android.wisdomtmt.com/',
-  gamma: 'http://api.gamma.wisdomtmt.com/',
-  testing: 'http://192.168.1.55:8080/',
-  dev: 'http://192.168.1.52:8080/'
+  
 }
 
 const address = {
-  master: 'http://activity.wisdomtmt.com/',
-  android: 'http://activity.android.wisdomtmt.com/',
-  gamma: 'http://activity.gamma.wisdomtmt.com/',
-  testing: 'http://192.168.1.55:8003/',
-  dev: 'http://192.168.1.52:8003/'
+
 }
 
 //webpack插件
